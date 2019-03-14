@@ -1,0 +1,91 @@
+body{
+    
+    line-height: 2.0;
+    background-color: lightgray;
+}
+
+.container{
+    margin: auto;
+}
+
+header{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-top: 30px;
+    height: 160px;
+    border-bottom: red 4px solid;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+    
+}
+header li{
+position: relative;
+    top: 100px;
+    left: 570px;
+    display: inline;
+    text-align: center;
+    padding: 50px 20px 50px 20px;
+   margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: darkgray;
+}
+#name{
+float: left;
+    position: absolute;
+    top: 1px;
+    left: 30px;
+TEXT-SHADOW: 2px 2px red;
+font-family: lucida console;
+font-size: 30px;
+    
+}
+
+#fname{
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+#bname{
+    width: 100px;
+    height: 40px;
+    
+}
+#search{
+position: absolute;
+border: 3px grey;
+border-radius: 15px;
+display: block;
+top: 65px;
+    left: 440px;
+font-family: serif;
+color: grey;
+text-align: center;
+font-size: 20px;
+}
+#user{
+    position: absolute;
+top: 68px;
+text-align: center;
+display: block;
+right: 30px;
+width: 130px;
+height: 30px;
+color: darkblue;
+border-width: 2px;
+border-color: blue;
+border-radius: 10px;
+background-color: lightblue;
+font-size: 15px;
+}
